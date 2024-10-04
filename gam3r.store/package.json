@@ -15,12 +15,9 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "npm@10.8.3",
+  "packageManager": "npm@10.8.2",
   "workspaces": [
     "apps/*",
     "packages/*"
-  ],
-  "dependencies": {
-    "gam3r.store": "file:"
-  }
+  ]
 }

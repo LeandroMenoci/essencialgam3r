@@ -4,7 +4,6 @@ import { ProdutoPrisma } from './produto.prisma';
 
 @Controller('produtos')
 export class ProdutoController {
-
   constructor(readonly repo: ProdutoPrisma) {}
 
   @Post()
